@@ -2,7 +2,7 @@ import React from 'react'
 
 function MenuItem({menuItems}) {
   const {name,recipe,image,price} =menuItems
-  console.log(image)
+ 
   return (
     <div className='flex'>
       <div>
